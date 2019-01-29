@@ -1,0 +1,183 @@
+/* Very-Small devices (768px and down) */
+@media only screen and (max-width: 768px) {
+  /* HEADER */
+  .container-xs {
+    display: flex;
+    justify-content: center;
+    height: 8rem;
+  }
+  .img-xs {
+    width: 18rem;
+    height: 18rem;
+  }
+  .container-xs-social {
+    margin-top: 8rem;
+  }
+  .container-logo {
+    margin-left: 1rem;
+  }
+  .navbar-btn {
+    background-color: #355C7D;;
+    border: #474747 solid;
+  }
+  /* CONTENIDO */
+  .contenido {
+    background-color: #233342;
+  }
+  p {
+    color: white;
+  }
+  .glyphicon-div {
+    padding-top: 25px;
+  }
+  .glyphicon-user {
+    color: black;
+    font-size: 50px;
+  }
+  .padding-textarea {
+    padding-top: 20px;
+  }
+  /* BUSCADOR */
+  .buscador {
+    background-color: #233342;
+  }
+  .input-group, .opc_busq, .img-cont{
+    padding-top: 20px;
+  }
+}
+
+/* Small devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  /* HEADER */
+  .container-logo {
+    margin-left: 1rem;
+  }
+  /* CONTENIDO */
+  .contenido {
+    background-color: #233342;
+  }
+  p {
+    color: white;
+  }
+  .glyphicon-div {
+    padding-top: 25px;
+  }
+  .glyphicon-user {
+    color: black;
+    font-size: 50px;
+  }
+  .padding-textarea {
+    padding-top: 20px;
+  }
+  /* BUSCADOR */
+  .buscador {
+    background-color: #233342;
+  }
+  .input-group, .opc_busq, .img-cont{
+    padding-top: 20px;
+  }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  /* HEADER */
+  .container-logo {
+    margin-left: 1rem;
+  }
+  /* CONTENIDO */
+  .contenido {
+    background-color: #233342;
+  }
+  p {
+    color: white;
+  }
+  .glyphicon-div {
+    padding-top: 25px;
+  }
+  .glyphicon-user {
+    color: black;
+    font-size: 55px;
+  }
+  .padding-textarea {
+    padding-top: 20px;
+  }
+  /* BUSCADOR */
+  .buscador {
+    background-color: #233342;
+  }
+  .input-group, .opc_busq, .img-cont{
+    padding-top: 20px;
+  }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  /* HEADER */
+  .container-logo {
+    margin-left: 1rem;
+  }
+  /* CONTENIDO */
+  .contenido {
+    background-color: #233342;
+  }
+  p {
+    color: white;
+  }
+  .glyphicon-div {
+    padding-top: 25px;
+  }
+  .glyphicon-user {
+    color: black;
+    font-size: 50px;
+  }
+  .padding-textarea {
+    padding-top: 20px;
+  }
+  /* BUSCADOR */
+  .buscador {
+    background-color: #233342;
+  }
+  .input-group, .opc_busq, .img-cont{
+    padding-top: 20px;
+  }
+}
+
+/* --------------------------------------- */
+
+body {
+  background-color: #474747;
+}
+.row_header {
+  height: 12rem;
+  position: relative;
+}
+/* Barra de Navegación */
+.navbar {
+  height: 7rem;
+  margin-top: 0px;
+}
+.navbar-btn {
+  background-color: #355C7D;
+  border: #474747 solid;
+}
+
+    /* Logo Foo Fighters  */
+.container-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  margin-top: -5rem;
+}
+.img-logo {
+  width: 10rem;
+  height: 10rem;
+}
+    /* Social Media */
+.container-social {
+  margin-top: 65px;
+}
+h1 {
+  color: black;
+}
